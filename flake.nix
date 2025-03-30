@@ -43,7 +43,7 @@
           devShells.default = mkShell {
               packages = [
                 myrust
-                # rust-analyzer
+                rust-analyzer
               ];
 
               LD_LIBRARY_PATH = libPath;
